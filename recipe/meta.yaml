@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-mcp" %}
-{% set version = "0.40.2" %}
+{% set version = "0.40.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_mcp-{{ version }}.tar.gz
-  sha256: 7215fba2e9e6fa5d5888ba8a06c7b173274412df80a566a54d1042c2f724247c
+  sha256: 07cc99f7e4b9c28949ac4643c0fb7f7c465c47306c1623822b5d8af4156ff5ed
 
 build:
   noarch: python
@@ -42,7 +42,7 @@ about:
   home: https://www.traceloop.com/openllmetry
   summary: OpenTelemetry mcp instrumentation
   dev_url: https://github.com/traceloop/openllmetry
-  doc_url: https://www.traceloop.com/docs/openllmetry/introduction  
+  doc_url: https://www.traceloop.com/docs/openllmetry/introduction
   license: Apache-2.0
   license_file: LICENSE
 
