@@ -27,7 +27,7 @@ requirements:
     - opentelemetry-semantic-conventions-ai >=0.5.1,<0.6.0
     - opentelemetry-exporter-otlp >=1.34.1,<2
   run_constrained:
-    - mcp >=1.3.0,<2.0.0
+    - mcp >=1.26.0,<2
 
 # Tests not compatible with fastmcp version >3.0.0 (only exist in the main)
 test:
